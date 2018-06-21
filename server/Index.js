@@ -3,7 +3,7 @@ const {
 } = require('graphql-yoga')
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb://localhost/test3');
+mongoose.connect(process.env.MONGODB_URL||'mongodb://localhost/test3');
 
 const Todo = mongoose.model('Todo', {
     text: String,

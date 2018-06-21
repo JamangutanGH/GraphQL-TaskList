@@ -1,0 +1,26 @@
+{
+  "name": "GraphQL-TaskList",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client":"cd client && npm run start",
+    "start":"concurrently \"nodemon ./server/index.js\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamangutanGH/GraphQL-TaskList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamangutanGH/GraphQL-TaskList/issues"
+  },
+  "homepage": "https://github.com/JamangutanGH/GraphQL-TaskList#readme",
+  "devDependencies": {
+    "concurrently": "^3.6.0",
+    "nodemon": "^1.17.5"
+  }
+}
