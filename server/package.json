@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "graphql-yoga": "^1.14.10",
+    "mongoose": "^5.1.6"
+  }
+}
